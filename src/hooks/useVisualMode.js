@@ -7,11 +7,11 @@ export default function useVisualMode(initial) {
 
   const transition = function(newMode, replace = false) {
 
-    if (replace) {
-      setMode(newMode);
-    } else {
+    if (!replace) {
       setMode(newMode);
       history.push(newMode);
+    } else {
+      setMode(newMode);
     }
   }
   
