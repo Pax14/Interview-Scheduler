@@ -88,6 +88,11 @@ export default function Appointment(props) {
           message="Are you sure you want to delete this appointment?"
         />
       )}
+      {mode === DELETING && (
+        <Status 
+          message="Deleting"
+        />
+      )}
       {mode === EDITING && (
         <Form 
           name={props.interview.student}
