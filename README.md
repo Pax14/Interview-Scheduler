@@ -1,6 +1,6 @@
 # Interview Scheduler
 
-Single page React application that can create, store, update, and delete daily interviews for a user to keep track of their work week. 
+Single page React application that can create, store, update, and delete daily interviews for a user to keep track of their work week. This the repo for the front end. Back end can be found here [Scheduler API](https://github.com/Pax14/scheduler-api)
 
 ## Setup
 
@@ -24,6 +24,21 @@ npm test
 npm run storybook
 ```
 
-Adding Users To Channels:
+## Screenshots
+
+Home Page View:
 
 !["1"](/images/1.png)
+
+Adding An Interview:
+
+!["2"](/images/2.png)
+
+New Interview Created:
+
+!["3"](/images/3.png)
+
+Deleting An Interview:
+
+!["4"](/images/4.png)
+
